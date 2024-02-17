@@ -828,7 +828,10 @@ margin-top: 70px;
       .threeimg{
         display: flex;
         flex-direction: column;
-        margin-left: 20px;
+        margin-left: 8px;
+      }
+      .threeimg img{
+        /* width: 200px; */
       }
       .main-s{
         display: flex;
@@ -840,19 +843,25 @@ margin-top: 70px;
       .main-box{
         display: flex;
         flex-direction: column;
-        width: 900px;
-        /* gap: 70px; */
+        width: 800px;
+        gap: 20px;
         /* gap: ; */
         /* height: 500px; */
       }
       .boxes3{
         height: 340px;
-        width: 290px;
+        width: 250px;
+      }
+      .boxes2{
+        height: 340px;
+        width: 250px;
       }
       .boxes1{
+        height: 340px;
+        width: 250px;
         margin-left: 10px;
-        /* gap: 10px; */
       }
+      
       .people1{
         display: flex;
         flex-direction: column;
@@ -881,7 +890,7 @@ margin-top: 70px;
       
       #contact-details{
         width: 400px;
-        margin-left: -20px;
+        margin-left: -60px;
         margin-top: 10px;
       }
       #form-details{
